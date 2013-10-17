@@ -10,14 +10,11 @@ gem 'bootstrap-will_paginate'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'pg'
   gem 'rspec-rails'
   gem 'capybara'
 end
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
